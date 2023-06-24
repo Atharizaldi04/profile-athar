@@ -5,7 +5,15 @@ hamburge.addEventListener('click', function() {
     hamburge.classList.toggle('hamburger-active')
     navMenu.classList.toggle('hidden')
 
-})
+});
+
+window.addEventListener('click', function (e) {
+
+    if (e.target != hamburge && e.target != navMenu) {
+        hamburge.classList.remove('hamburger-active');
+        navMenu.classList.add('hidden');
+    }
+});
 
 window.onscroll = function () {
     const header = document.querySelector('header');
@@ -17,3 +25,5 @@ window.onscroll = function () {
         header.classList.remove('navbar-fixed')
     }
 }
+
+
