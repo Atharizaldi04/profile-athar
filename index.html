@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <title>Athar Rizaldi</title>
+</head>
+<body>
+    
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#hero" class="font-bold text-lg text-primary block py-6">Atharizaldi</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line ransition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>   
+
+                    <nav id="navbar-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-5 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#hero" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary">Skills</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    
+    <!-- Hero Section Start -->
+    <section id="hero" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 mb-7 lg:w-1/2">
+                    <h1 class="text-primary font-semibold md:text-xl animate-typing overflow-hidden whitespace-nowrap border-r-2 lg:animate-typinglarge ">Hello 👋, I am </h1>
+                    <h1 class="text-primary font-semibold md:text-xl"> <span class="block font-bold text-slate-800 text-4xl lg:text-5xl">
+                        Mochammad Athar Rizaldi
+                    </span></h1>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5">Web, and android development enthusiast</h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed text-sm">I am an undergraduate student at Jakarta State Polytechnic who has an interest in web and Android development. I have just completed the Bangkit 2023 program with a specialization in mobile development. I have experience working on projects using HTML, CSS, JavaScript, PHP, along with their respective frameworks and libraries such as ReactJS, Tailwind CSS, and Codeigniter. Additionally, I also have experience working on Android projects using Kotlin. Up until now, I have been continuously learning and improving my programming skills to become even better.</p>
+
+                    <a href="#" class="font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-emerald-700 transition duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+
+                <div class="w-full self-start order-first px-4 lg:w-1/2 lg:order-last">
+                    <div class="relative mb-9 lg:right-0">
+                        <img src="dist/atar.png" alt="athar foto" width="400px" height="400px" class="max-w-full mx-auto rounded-3xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cbd5e1" fill-opacity="1" d="M0,160L60,138.7C120,117,240,75,360,96C480,117,600,203,720,224C840,245,960,203,1080,165.3C1200,128,1320,96,1380,80L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></span>
+    </section>
+    <!-- Hero Section End -->
+
+    
+
+
+    <!-- Portofolio Section Start -->
+    <div id="portofolio" class="pt-20 pb-16 bg-slate-300">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-slate-800 text-3xl mb-4">Project Terbaru</h2>
+                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, quasi deleniti! Perspiciatis totam error molestias deserunt vel iste in ad culpa repudiandae laborum mollitia illo, inventore, repellat nihil autem!</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-lg shadow-md overflow-hidden">
+                        <img src="dist/portofolio/BakeAcademy.png" alt="BakeAcademy" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3 text-center">
+                        Bake Academy Application
+                    </h3>
+                    <div class="flex flex-wrap justify-center">
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1 mr-2 my-2  rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Kotlin</span>
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1 mr-2 my-2  rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Android Studio</span>
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1  mr-2 my-2 rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Android Studio</span>
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1 mr-2 my-2  rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Android Studio</span>
+                    </div>
+                    
+                    <p class="font-medium text-base text-secondary mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ex harum optio eaque saepe, at eos aspernatur et esse doloremque?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-lg shadow-md overflow-hidden">
+                        <img src="dist/portofolio/DSS.png" alt="BakeAcademy" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3 text-center">
+                        SPK Mekaar Prb
+                    </h3>
+                    <div class="flex flex-wrap justify-center">
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1 mr-2 my-2  rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Html</span>
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1 mr-2 my-2  rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">Bootstrap</span>
+                        <span class="bg-green-500 text-white text-[13px] px-3 py-1  mr-2 my-2 rounded-full shadow-md hover:bg-green-200 hover:text-slate-800 transition duration-300">PHP</span>
+                    </div>
+                    <p class="font-medium text-base text-secondary mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ex harum optio eaque saepe, at eos aspernatur et esse doloremque?</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Protofolio Section End -->
+
+
+    <!-- Skills Strat -->
+        <section id="skills" class="pt-20 pb-20 bg-slate-700">
+            <div class="container">
+                <div class="w-full px-4">
+                    <div class="mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-primary mb2">Skills</h4>
+                        <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
+                            The abilities/skills I possess and can perform. 
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    <!-- Skils End -->
+
+
+    <script src="dist/js/script.js">
+
+    </script>
+
+</body>
+</html>
